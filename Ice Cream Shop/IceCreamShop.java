@@ -12,9 +12,11 @@ public class IceCreamShop {
     public String getName() {
         return name;
     }
+
     public ArrayList<String> getVariants() {
         return variants;
     }
+
     public void addVariant(String newVariant) {
         if (!getVariants().contains(newVariant)) {
             variants.add(newVariant);
@@ -23,6 +25,7 @@ public class IceCreamShop {
             System.out.println("It already exists");
         }
     }
+
     public void removeVariant(String oldVariant) {
         if (getVariants().contains(oldVariant)) {
             getVariants().remove(oldVariant);
@@ -31,10 +34,12 @@ public class IceCreamShop {
             System.out.println("This does not exist");
         }
     }
-    public int amountOfVariants(){
+
+    public int amountOfVariants() {
         return getVariants().size();
     }
-    public void printVariants(){
+
+    public void printVariants() {
         System.out.println(name + " has " + amountOfVariants() + " different variants:");
         if (!getVariants().isEmpty()) {
             for (int i = 0; i < getVariants().size(); i++) {
