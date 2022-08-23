@@ -1,4 +1,4 @@
-class Main {
+public class Main {
     public static void main(String args[]) {
         StudentDB newStudent = new StudentDB();
         newStudent.createList();
