@@ -1,4 +1,5 @@
-# Inspiration from https://github.com/github/gitignore (Java, MacOS, VSCode)
+# Inspiration from https://github.com/github/gitignore 
+## Java, MacOS, VSCode
 
 ## Java
 # Compiled class file
