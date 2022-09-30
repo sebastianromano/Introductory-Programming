@@ -1,0 +1,2 @@
+- https://github.com/karan/Projects
+- https://github.com/MunGell/awesome-for-beginners
